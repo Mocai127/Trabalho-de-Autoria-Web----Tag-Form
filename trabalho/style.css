@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background-color:lightgreen;
+    border-bottom: 0.5em solid black;
+}
+main{
+    display: flex;
+    background-color:bisque;
+    font-size: 2em;
+}
+aside{
+    background-color:lightgreen;
+    border-right: 0.5em solid black;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+a{
+    font-size: 0.75em;
+    margin-top: 1em;
+    border-radius: 0.5em;
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+a:hover{
+    background-color: bisque;
+}
+form{
+    margin-left: 2em;
+}
+h1{
+    font-size: 2.5em;
+    margin-top: 4em;
+}
+input{
+    font-size: 40px;
+    width: 400px;
+    height: 50px;
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
+label{
+    font-size: 2em;
+    display: block;
+    margin-top: 1em;
+}
+.genero{
+    display: flex;
+   
+}
+.itemg{
+    margin-right: 3em;
+    height: 50px;
+    width: 50px;
+}
+.cor{
+    height: 150px;
+    width: 200px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}
+.nascimento{
+    height: 50px;
+    width: 300px;
+}
+p{
+    font-size: 2em;
+    margin-top: 1em;
+}
+.foto{
+    width: 800px;
+}
+.saida{
+    height: 100px;
+    margin-right: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+footer{
+    background-color:lightgreen; 
+    border-top: 0.5em solid black;;
+    font-size: 2em;
+    display: block;
+    text-align: center;
+}
+.infos{
+    display: flex;
+}
+.contato{
+    margin-top: 1em;
+    margin-right: 5em;
+    margin-left: 1em;
+    text-align: center;
+}
+.objetivos{
+    display: flex;
+}
+.obj{
+    margin-top: 1em;
+    height: 100px;
+    width: 100px;
+    margin-left: 1em;
+    margin-right: 4em;
+} 

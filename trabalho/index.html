@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="ifrn-removebg-preview.png" alt="logo">
+        <h1>Formulario de inscrição para o time de tenis de mesa</h1>       
+        <img src="raquete3-removebg-preview.png" alt="raquete">
+    </header>
+
+    <main>
+        <aside>
+            <nav>
+                <a href="devs.html">Pagina do desenvolvedor</a>
+            </nav>
+        </aside>
+
+        <form action="server.php" method="post">
+            <div>
+                <label for="foto">Foto para indentificação</label>
+                <input type="file" name="Foto" id="foto" required class="foto"> 
+            </div>
+            
+            <div>
+                <label for="identificacao">Número de indentificação</label>
+                <input type="number" name="Id" id="identificacao" required>
+            </div>
+           
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" name="Nome" id="nome" required>
+            </div>
+            
+            <div>
+                <label for="nascimento">Data de nascimento</label>
+                <input type="date" name="Nascimento" id="nascimento" required class="nascimento">
+            </div>
+            
+            <p>Gênero</p>
+            <div class="genero">              
+                <label for="homem">Homem</label>
+                <input type="radio" name="Genero" id="homem" checked class="itemg">
+                <label for="mulher" >Mulher</label>
+                <input type="radio" name="Genero" id="mulher" checked class="itemg">
+                <label for="ni">Não informar</label>
+                <input type="radio" name="Genero" id="ni" checked class="itemg"> 
+            </div>
+           
+            <div>
+                <label for="cor">Cor favorita</label>
+                <input type="color" name="Cor" id="cor" class="cor">
+            </div>
+           
+            <p>Objetivos com o clube</p>
+            <div class="objetivos">
+                <label for="ataque">Melhorar o ataque</label>
+                <input type="checkbox" name="Objetivo" id="ataque" class="obj">
+                <label for="defesa">Melhorar a defesa</label>
+                <input type="checkbox" name="Objetivo" id="defesa" class="obj">
+                <label for="movimentacao">Melhorar a movimentação</label>
+                <input type="checkbox" name="Objetivo" id="movimentacao" class="obj">
+            </div>
+           
+            <p>Informações para contato:</p>
+            <div class="infos">              
+                <label for="telefone">Telefone</label>
+                <input type="number" name="Telefone" id="telefone" class="contato" required>
+
+                <label for="email">E-mail </label>
+                <input type="email" name="Email" id="email" class="contato" required>
+            </div>
+            
+
+            <input type="reset" id="reiniciar" class="saida">
+           
+            <input type="submit" id="enviar" class="saida">
+        </form>  
+    </main>
+
+    <footer>
+        <p>IFRN campus Santa Cruz</p>
+        <p>Trabalho de Autoria Web</p>
+        <p>Prof. Marcelo Figueiredo Barbosa Júnior</p>
+        <p>José Adailton Dias de Araújo Filho</p>
+    </footer>
+</body>
+</html>
